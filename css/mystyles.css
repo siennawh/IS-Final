@@ -1,0 +1,158 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #E74C3C;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#header h1 {
+    color: #F1C40F;
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 2px 2px #34495E;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #ECF0F1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #F1C40F;
+}
+
+#main-content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #34495E;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #3498DB;
+    border-bottom: 2px solid #3498DB;
+    padding-bottom: 0.5rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#styles ol {
+    background-color: #2980B9;
+    padding: 1rem 1rem 1rem 3rem;
+    border-radius: 10px;
+}
+
+#styles ul {
+    background-color: #3498DB;
+    padding: 1rem 1rem 1rem 3rem;
+    border-radius: 10px;
+}
+
+#legends ul {
+    background-color: #16A085;
+    padding: 1rem 1rem 1rem 3rem;
+    border-radius: 10px;
+}
+
+iframe {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#jazz-stats {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #34495E;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 600px) {
+    #header h1 {
+        font-size: 2rem;
+    }
+
+    #main-content {
+        padding: 1rem;
+    }
+}
+.video-container {
+    margin-bottom: 50px;
+}
+
+#tableau-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+#tableau-container h2 {
+    margin-bottom: 20px;
+}
+
+.tableauPlaceholder {
+    width: 80%; /* Adjusts the size of the Tableau visualization */
+    max-width: 800px; /* Limits the maximum width */
+    height: 600px; /* Sets a fixed height for consistency */
+    border-radius: 15px; /* Rounds all corners */
+    overflow: hidden; /* Ensures content stays within rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+}
+
+.video-container {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+@media (max-width: 600px) {
+    #tableau-container {
+        padding: 0 10px;
+    }
+
+    .tableauPlaceholder {
+        width: 90%; /* Makes it smaller on mobile screens */
+        height: auto; /* Adjusts height automatically for responsiveness */
+    }
+}

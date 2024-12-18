@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The World of Jazz</title>
+    <link rel="stylesheet" href="css/mystyles.css">
+</head>
+<body>
+    <div id="header">
+        <h1>The World of Jazz</h1>
+        <nav>
+            <ul>
+                <li><a href="#history">History</a></li>
+                <li><a href="#styles">Styles</a></li>
+                <li><a href="#legends">Legends</a></li>
+                <li><a href="#modern-jazz">Modern Jazz</a></li>
+                <li><a href="index.html">Sienna's Resume</a></li>
+                <li><a href="webapp.html">Web App (Musical 2048)</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="main-content">
+        <div id="history">
+            <h2>History of Jazz</h2>
+            <p>Jazz originated in the late 19th and early 20th centuries in African American communities in the Southern United States. It emerged from roots in blues and ragtime, and developed through various styles over the decades.</p>
+            <img src="assets/img/louisarmstrong.jpg" alt="Louis Armstrong" width="300">
+        </div>
+
+        <div id="styles">
+            <h2>Jazz Styles</h2>
+            <ol>
+                <li>Traditional Jazz
+                    <ul>
+                        <li>New Orleans Jazz</li>
+                        <li>Dixieland</li>
+                    </ul>
+                </li>
+                <li>Swing</li>
+                <li>Bebop</li>
+                <li>Cool Jazz</li>
+                <li>Hard Bop</li>
+                <li>Free Jazz</li>
+                <li>Fusion</li>
+            </ol>
+        </div>
+
+        <div id="legends">
+            <h2>Jazz Legends</h2>
+            <p>Some of the most influential jazz musicians include:</p>
+            <ul>
+                <li>Louis Armstrong</li>
+                <li>Miles Davis</li>
+                <li>John Coltrane</li>
+                <li>Ella Fitzgerald</li>
+                <li>Duke Ellington</li>
+            </ul>
+        </div>
+
+        <div id="modern-jazz">
+            <h2>Modern Jazz</h2>
+            <p>Jazz continues to evolve with contemporary artists pushing the boundaries of the genre. Here's a performance by modern jazz pianist Robert Glasper:</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/oGTVoX7AaRc" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="tableau-container">
+        <h2>Music Taste and Mental Wellbeing</h2>
+        <div class='tableauPlaceholder' id='viz1702859847760' style='position: relative'>
+            <noscript><a href='#'><img alt='Music Taste and Mental Wellbeing ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mu&#47;MusicTasteandMentalWellbeing&#47;Matilda&#47;1_rss.png' style='border: none' /></a></noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='MusicTasteandMentalWellbeing&#47;Matilda' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mu&#47;MusicTasteandMentalWellbeing&#47;Matilda&#47;1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+            </object>
+        </div>
+    </div>
+
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1702859847760');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        if ( divElement.offsetWidth > 800 ) {
+            vizElement.style.width='1000px';vizElement.style.height='827px';
+        } else if ( divElement.offsetWidth > 500 ) {
+            vizElement.style.width='1000px';vizElement.style.height='827px';
+        } else {
+            vizElement.style.width='100%';vizElement.style.height='727px';
+        }
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+</body>
+</html>
